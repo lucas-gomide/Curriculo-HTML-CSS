@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo Lucas</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="syle-contato.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <a href="index.html"><img src="imagens/curriculo.png" alt="Currículo" ></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="contato.html"> Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
+
+    <main>
+        <form>            
+            <label>
+                <span>Nome e Sobrenome</span>
+                <input type="text" class="input" required placeholder="Seu Nome e Sobrenome">
+            </label>
+            
+            <label>
+                <span>Telefone com DDD</span>
+                <input type="tel" class="input" required placeholder="(XX) XXXXX-XXXX">
+            </label>
+
+            <label>
+                <span>E-mail</span>
+                <input type="email" class="input" required placeholder="seuemail@seuemail.com">
+            </label>
+            
+            <label>
+                <span>Mensagem</span>
+                <textarea cols="50" rows="10" placeholder="Sua mensagem"></textarea>
+            </label>
+
+            <fieldset>
+                <legend>Como gostaria que eu retornasse?</legend>
+                <label class="retorno">
+                    <input type="radio" name="contato" value="radio-email">
+                    Email
+                </label>
+
+                <label class="retorno">
+                    <input type="radio" name="contato" value="radio-telefone">
+                    Telefone
+                </label>
+
+                <label class="retorno">
+                    <input type="radio" name="contato" value="radio-whats" checked>
+                    WhatsApp
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright Lucas Gomide - 2020</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,151 @@
+body{
+    background: linear-gradient(#EEEEEE,#CCCCCC); 
+}
+
+/*CSS do header do contato.html*/
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+img{
+    width: 150px;
+    padding: 20px 0;
+}
+
+p a{
+    text-decoration: none;
+    color: #000000;
+}
+
+p a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+nav{
+    position: absolute;
+    right: 0px;
+    top: 82px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 3rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.caixa img:hover{
+    width: 160px;
+}
+
+/*CSS do 'main' do contato.html*/
+
+form{
+    width: 940px;
+    margin: 20px auto 0 auto;
+}
+
+form label{
+    display: block;
+    font-size: 18px;
+}
+
+span{
+    margin-left: 10px
+}
+
+form .input, textarea{
+    display: block;
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    background: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 10px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #C78C19;
+    transform: scale(1.1);
+}
+
+.retorno, legend {
+    font-size: 18px;
+    padding: 2px 5px;
+    margin: 3px 5px;
+}
+
+/*CSS da 'footer' do index.html*/
+
+footer p{
+    text-align: center;
+    padding: 80px;
+    margin: 0;
+}
+
+@media screen and (max-width:480px){
+
+    nav{
+        position: static;
+    }
+
+    .caixa, form, .conteudo{
+        width: auto;
+    }
+
+    .descricao{
+        margin: 20px;
+    }
+
+    .sub-titulo p{
+        text-align: justify;
+    }
+
+    img{
+        width: 80px;
+        margin-left: 50px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+
+    .nome{
+        font-size: 18px;
+    }
+
+    .sub-titulo{
+        font-size: 16px;
+    }
+
+body{
+    font-size: 14px;
+}
+
+}

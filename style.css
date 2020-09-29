@@ -1,0 +1,172 @@
+body{
+    background: linear-gradient(#EEEEEE,#CCCCCC); 
+}
+
+/* CSS da parte 'header' do arquivo index.html*/
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+img{
+    width: 150px;
+    padding: 20px 0;
+}
+
+p a{
+    text-decoration: none;
+    color: #000000;
+}
+
+p a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+nav{
+    position: absolute;
+    right: 0px;
+    top: 82px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 3rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.caixa img:hover{
+    width: 160px;
+}
+
+/*CSS da parte 'main' do arquivo index.html*/
+
+main{
+    width: 940px;
+    margin: 20px auto 0 auto;
+    border-left: #777777 8px solid;
+}
+
+.nome{
+    font-size: 1.625rem;
+    font-weight: bold;
+    color: rgb(34, 82, 82);
+    padding: 10px 0px 15px 15px;
+    text-decoration: underline;
+    display: inline;
+}
+
+.redes-social{
+    width: 30px;
+    margin: 0;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
+.sub-titulo{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: darkgreen;
+    padding: 25px 0px 15px 15px;
+    text-decoration: underline;
+}
+
+.lista li, p{
+    padding: 4px;
+    margin-left: 25px;
+}
+
+.lista li:before{
+    content: "▪ " ;
+}
+
+.lista-experiencia li{
+    padding: 4px;
+    margin: 25px auto 10px 25px;
+}
+
+.lista-experiencia li:first-child{
+    margin-top: 0;
+}
+
+.lista-experiencia li:before{
+    content: "☛ ";
+}
+
+.descricao{
+    text-align: justify;
+    margin-left: 2%;
+}
+
+span + p{
+    font-weight: bold;
+    text-align: justify;
+    margin: 0.5rem 0 0 1rem;
+    font-weight: bold;
+}
+
+/*CSS da 'footer' do index.html*/
+
+footer p{
+    text-align: center;
+    padding: 80px;
+    margin: 0;
+}
+
+
+
+
+@media screen and (max-width:480px){
+
+    nav{
+        position: static;
+    }
+
+    .caixa, form, .conteudo{
+        width: auto;
+    }
+
+    .descricao{
+        margin: 20px;
+    }
+
+    .sub-titulo p{
+        text-align: justify;
+    }
+
+    img{
+        width: 80px;
+        margin-left: 50px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+
+    .nome{
+        font-size: 18px;
+    }
+
+    .sub-titulo{
+        font-size: 16px;
+    }
+
+body{
+    font-size: 14px;
+}
+
+}
